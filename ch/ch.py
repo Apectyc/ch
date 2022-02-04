@@ -23,7 +23,7 @@ async def ch(ctx, user : discord.Member, *, role : discord.Role):
                 ])
         
       await ctx.send(f"Added {role} to {user.mention} and User DMed")
-      channel = bot.get_channel(934207770201309195)
+      channel = bot.get_channel(929567004900352091)
       await channel.send(
 
           embed=discord.Embed(title='New Logs', description=f'{ctx.author} Add {user.mention} like Hosts.', footer='Developed by Jute.#2022', color=255),
